@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Student Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: #ffffff;
+      padding: 20px 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      margin-top: 0;
+      color: #333;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #4a90e2;
+      margin-bottom: 10px;
+    }
+    .info-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px 30px;
+      margin-bottom: 20px;
+    }
+    .label {
+      font-weight: bold;
+      color: #555;
+    }
+    .value {
+      color: #222;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .tag {
+      display: inline-block;
+      background: #e6f0ff;
+      color: #1f4fbf;
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 12px;
+      margin: 3px 4px 0 0;
+    }
+    .footer {
+      text-align: center;
+      font-size: 13px;
+      color: #777;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header / Basic Info -->
+    <div class="header">
+      <!-- Replace src with actual image URL or remove img if not needed -->
+      <img src="https://via.placeholder.com/120" alt="Student Photo" class="avatar" />
+      <h1>John Doe</h1>
+      <p>Grade 10 • Springfield High School</p>
+    </div>
+
+    <!-- Personal Details -->
+    <div class="section">
+      <h2>Personal Information</h2>
+      <div class="info-grid">
+        <div class="label">Student ID:</div>
+        <div class="value">STU-2026-001</div>
+
+        <div class="label">Age:</div>
+        <div class="value">15</div>
+
+        <div class="label">Email:</div>
+        <div class="value">john.doe@example.com</div>
+
+        <div class="label">Phone:</div>
+        <div class="value">+1 (555) 123-4567</div>
+
+        <div class="label">Address:</div>
+        <div class="value">123 Main Street, Springfield, USA</div>
+      </div>
+    </div>
+
+    <!-- Academic Info -->
+    <div class="section">
+      <h2>Academic Details</h2>
+      <div class="info-grid">
+        <div class="label">Class:</div>
+        <div class="value">10-B</div>
+
+        <div class="label">Homeroom Teacher:</div>
+        <div class="value">Ms. Smith</div>
+
+        <div class="label">GPA:</div>
+        <div class="value">3.8</div>
+
+        <div class="label">Favorite Subject:</div>
+        <div class="value">Mathematics</div>
+      </div>
+    </div>
+
+    <!-- Subjects / Courses -->
+    <div class="section">
+      <h2>Subjects</h2>
+      <ul>
+        <li>Mathematics</li>
+        <li>English Literature</li>
+        <li>Physics</li>
+        <li>History</li>
+        <li>Computer Science</li>
+      </ul>
+    </div>
+
+    <!-- Skills / Interests -->
+    <div class="section">
+      <h2>Skills & Interests</h2>
+      <span class="tag">Coding</span>
+      <span class="tag">Basketball</span>
+      <span class="tag">Music</span>
+      <span class="tag">Robotics Club</span>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      Last updated: May 20, 2026
+    </div>
+  </div>
+</body>
+</html>
